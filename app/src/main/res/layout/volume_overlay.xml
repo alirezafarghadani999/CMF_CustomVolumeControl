@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="750dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.496"
+            tools:layout_editor_absoluteX="39dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/vlc"
+            android:layout_width="258dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="-120dp"
+            android:background="@drawable/bg_volume_controler"
+            android:backgroundTint="#1b1d1c"
+            android:outlineProvider="none"
+            android:rotation="90"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37">
+
+            <SeekBar
+                android:id="@+id/volumeSeekBar"
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:max="100"
+                android:orientation="horizontal"
+                android:progress="30"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:progressTintMode="add"
+                android:rotation="180"
+                android:scrollbars="horizontal"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb"
+                android:verticalScrollbarPosition="defaultPosition"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.41000003" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="5dp"
+            android:layout_height="800dp"
+            android:background="@drawable/side_black"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

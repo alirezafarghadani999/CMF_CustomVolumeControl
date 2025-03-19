@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CMF Volume Control</string>
+    <string name="accessibility_service_description">test</string>
+    <string name="app_description">
+        🎛️ About the App 🎚️\n\n
+        Welcome! This app is designed for custom volume control for CMF PHONE 1, but keep in mind: this is a fun and experimental project!\n
+        It may have a lot of bugs, but if you\'d like, you can help improve it. 😃\n\n
+
+        🔹 How to Enable It?\n
+        1️⃣ Grant Necessary Permissions:\n
+        go to Settings > Accessibility and find the app.\n
+        Make sure to grant the necessary accessibility permissions for the app to function properly.\n\n
+        2️⃣ Run the app and enjoy quick custom volume control!\n\n
+
+        🚀 Contribute to Development\n
+        If you have ideas or want to contribute, feel free to join us on GitHub! The project is open-source, and you can submit issues or pull requests.\n\n
+
+        📌 GitHub Repository: https://github.com/yourusername/yourrepository \n\n
+
+    👨‍💻 Developed by: Alireza
+</string>
+</resources>
